@@ -1,0 +1,244 @@
+/* GENERAL CSS */
+body {
+  color: #606161;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  padding: 5px;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding: 5px;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.title {
+  font-weight: 300i;
+  font-size: 14px;
+}
+
+/* NAVIGATION */
+.logo a{
+  color: #000000;  
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+
+.logo a:hover{
+  color: #000000;  
+  text-decoration: none;
+}
+
+#siteNav{
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  padding: 5px;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  z-index: 20000;
+}
+
+#siteNav ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+
+#siteNav li {
+  display: inline-block;
+  padding: 5px;
+  background-color: #ffffff;
+  color: #f000000;
+  list-style-type: none;
+}
+
+#siteNav li a {
+   color: #000000;  
+   text-decoration: none;    
+}
+
+#siteNav li a:hover {
+   text-decoration: none; 
+   color: #074aff;  
+}
+
+#toTop {
+width: 100%;
+text-align: right;
+margin: auto;
+z-index: 5000;
+position: fixed;
+display: none;
+bottom: 40px;
+cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* INDEX PAGE */
+.indexBg {
+  background-image: url(../img/2011/Toby-09402.jpg);
+  padding-top: 80px;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.indexText{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, 100%);
+  	color: black;
+  	text-align: center;
+}
+
+.indexText h1 {
+  text-decoration: underline;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+/* ABOUT PAGE */
+#bioMain {
+	padding: 90px 0 0 10px;
+	width: 100%;
+	text-align: justify;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.bioInfo{
+	width: 30%;
+}
+
+
+.exhiHistory{
+	width: 40%;
+}
+
+
+#main {
+	padding: 90px 0 0 10px;
+}
+
+
+/* WORK AND EXHIBITIONS */
+.flexcontainer {
+	display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+
+article.image-thumb {
+    position:relative;
+    max-width:100%;
+    min-width: 0;
+    background:none;
+    margin-left: 0%;
+
+}
+
+article.image-thumb img {
+    position: relative;
+    height: 60%;
+    padding: 10px;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+article .hidden-info {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color:#606161;
+  	font-weight: 300i;
+  	font-size:0.9em;
+  	padding: 0 0 0 5px;
+}
+
+article.shows {
+    position:relative;
+    max-width:100%;
+    min-width: 0;
+    background:none;
+    margin-left: 0%;
+    text-align: justify;
+
+}
+
+article.shows img {
+    position: relative;
+    height: 80%;
+    padding: 10px;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+.info{
+	background: #ffffff;
+	/*display: none;
+	position: absolute; 
+	bottom: 0;*/
+}
+
+element.style {
+
+    position: relative;
+    height: ;
+}
